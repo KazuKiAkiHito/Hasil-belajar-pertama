@@ -1,0 +1,97 @@
+CSS LAYOUTING
+
+1. Display
+Display : Setiap tag pada HTML berada dalam sebuah kotak. dan properti display pada CSS adalah mengatur perilaku dari kotak tersebut.
+
+Setiap tad pada HTML memiliki nilai default untuk properti display, tetapi kita juga dapat mengubah perilaku dari tag tersebut dengan mengganti value nya
+
+Value pada display ada 4
+1. inline
+2. inline-block
+3. block
+4. none
+
+-inline 
+1. Elemen HTML yang secara default tidak menambahkan garis baru ketika dibuat
+2. Lebar dan tinggi elemennya sebesar konten yang ada di dalam nya
+3. Khusus Display Inline kita tidak dapat mengatur tinggi dan lebar dari elemen yang di miliki inline (Hanya elemen IMG yang display default nya merupakan inline yang dapat di atur tinggi dan lebar nya)
+4. Margin dan Padding yang di masukkan pada display inline hanya mempengaruhi elemen yang ada di dalam nya secara horizontal tidak vertikal.
+
+Elemen-elemen pada HTML yang memiliki default display Inline : b, strong, i, em, a, span, sub, sup, button, input, label, select, textarea.
+
+
+
+
+
+	Tag : <div> & <span> tidak memiliki 'arti' apapun, keduanya 'hanya digunakan untuk mengelompokkan tag-tag yang ada pada HTML' dan 'memberikan informasi terhadap tag-tag tersebut'
+
+Tag <div> bisa di gunakan untuk memasukan parent dari sebuah elemen
+sedangkan tag <span> hanya bisa di gunakan dalam text
+
+
+
+Elemen default pada sebuah Display hanya : Inline dan Block.
+
+-Inline-Block :
+1. tidak ada elemen yang secara default memiliki properti display : inline-block, itupun kalau ada maka berarti display nya sudah di ubah oleh user
+2. cara mengubah nya hanya bisa secara manual, perilaku dasar nya sama dengan Inline
+3. Perbedaan antara display Inline dan Inline-Block adalah kemampuan nya mengatur tinggi dan lebar dari display
+
+-block :
+1. Elemen yang secara default menambahkan baris baru ketika dibuat
+2. Jika tidak diatur lebarnya, maka lebar default dari elemen block akan memenuhi lebar dari browser/parent nya.
+3. kita dapat mengatur tinggi dan lebar dari elemen block.
+4. didalam elemen block, kita dapat menyimpan tag dengan elemen lain seperti inline, inline-block, atau bahkan elemen block lain nya.
+5. Apabila tidak di berikan ukuran maka elemen nya akan memenuhi kotak
+
+- None : Hanya digunakan untuk menghilangkan sebuah elemen.
+
+2. Dimensi
+
+Cara mengatur ukuran dari elemen yang kita buat atau bisa disebut dengan dimensi
+
+
+	Dibagi menjadi 2 yaitu width dan height
+sedangkan unit nya berlaku untuk dimensi adalah :
+px, %, in, cm, mm, pt, pc
+
+3. Overflow 
+	Dibagi 4 
+1. visible
+2. auto
+3. hidden
+4. scroll
+
+4. Box Model
+
+	Konsep dasar : 
+1. Setiap elemen di halaman berada dalam sebuah box
+2. kita bisa mengatur ukuran dan posisi kotak tersebut
+3. kita bisa memberikan warna/gambar sebagai background kotak tersebut.
+
+CSS box model mendefinisikan kotak yang dihasilkan oleh sebuah elemen lalu menampilkannya sesuai dengan format visual nya.
+
+	Dibagi menjadi 4 : Margin, Border, Padding, Content.
+
+Overlapping margin terjadi ketika 2 buah margin saling digabungkan 
+dan juga margin tidak akan bisa di gabungkan secara vertikal tapi masih bisa secara horizontal
+
+Ketika Vertikal margin yang di pilih adalah margin yang memiliki ukuran paling besar, sedangkan ketika Horizontal margin yang dikiri dan di kanan nya akan digabungkan (Ditambahkan)
+
+Negatif Margin akan membuat kotak (box) nya menjadi berlawanan arah 
+Negatif Margin bisa digunakan untuk menyembunyikan elemen 
+
+Margin Auto akan membuat box terletak di tengah dari parent nya
+
+Shorthand Margin bisa digunakan dengan 4 cara
+
+Margin : Area transparan disekitar kotak (luar border)
+
+Padding : Area transparan didalam kotak (antara content dan border)
+
+Border : Batas di sekeliling Content dan Padding
+
+Content : konten sebenarnya didalam box, bisa berupa text ataupun gambar
+
+
+

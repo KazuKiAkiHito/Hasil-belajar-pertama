@@ -1,0 +1,72 @@
+CSS Layouting by Sandhika Galih
+
+yg akan di pelajari
+
+1. Display
+2. Dimensi
+3. Overflow
+4. Box model
+5. Float
+6. Position
+
+		  CSS Display
+	            <div> 	<span>
+Tag <div> & <span> tidak memiliki arti apapun, keduanya digunakan untuk mengelompokkan tag-tag HTML dan memberikan informasi terhadap tag-tag tersebut.
+
+	"Setiap tag dalam HTML berada di dalam sebuah KOTAK. properti display pada CSS mengatur gaya dari kotak tersebut."
+
+	"Setiap tag pada HTML memiliki nilai default untuk properti DISPLAY. Tetapi kita juga dapat mengubah gaya dari tag tersebut dengan mengganti value-nya."
+
+AFFEND dri Display ada 4
+1. Inline
+2. Inline-block
+3. Block
+4. None
+
+	Inline
+1. Elemen HTML yg secara default tidak menambahkan baris baru ketika dibuat
+2. Lebar dan Tinggi elemen nya sebesar konten yg ada di dalam nya
+3. Kita tidak dapat mengatur tinggi dan lebar dari elemen inline
+4. Margin dan Padding hanya mempengaruhi elemen secara Horizontal dan tidak secara Vertikal
+
+	Elemen Inline default
+b, strong, i,  em, a, span, sub, sup, button, input, label, select, textarea, . . . .
+
+	Inline-block
+1. Tidak ada elemen yang secara default memilki properti (display: inline-block;)
+2. Kita harus ubah secara manual properti tersebut
+3. Perilaku dasar nya sama dengan elemen inline
+4. Perbedaan nya : elemen inline-block dapat kita atur tinggi dan lebar nya
+
+	Block
+1. Elemen HTML yang secara default menambahkan baris baru ketika dibuat
+2. Jika tidak diatur lebar-nya,maka lebar default dari elemen block akan memenuhi lebar dari browser/parent-nya
+3. Kita dapat mengatur tinggi dan lebar dari elemen block
+4. Di dalam elemen block, kita dapat menyimpan tag dengan elemen inline, inline-block, ataupun elemen block lagi.
+
+	Elemen block default
+h1-h6, p, ol, ul, li, form, hr, div, . . . 
+
+	None
+1. Digunakan untuk menghilangkan sebuah elemen
+
+	Dimensi
+Elemen yang terdapat pada dimensi terbagi menjadi 2
+1. Width untuk mengatur lebar
+2. Height untuk mengatur tinggi
+
+	value width & height
+1. px (nilai absolut)
+2. % (nilai relative) karena dia mengikuti bentuk dari parent nya (elemen)
+3. in, cm, mm, pt, pc
+
+	Position
+1. Static adalah nilai default dari tiap2 elemen ketika tidak diberi properti position
+2. Menggunakan position selain static (non-static), akan membuat sebuah elemen menjadi seolah-olah berbeda dimensi dari elemen lainnya
+3. Elemen yang diberi position selain static dapat menggunakan properti top,bottom,left dan right untuk mengatur posisi nya
+
+
+
+
+
+

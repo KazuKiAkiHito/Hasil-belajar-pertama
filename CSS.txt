@@ -1,0 +1,143 @@
+FONT STYLE
+
+1. font-family : mengatur jenis font yg akan di gunakan
+
+2. font-size : mengatur ukuran font
+
+3. font-weight : mengatur ketebalan dari font
+
+4. font-variant : mengubah font menjadi small caps
+
+5. font-style : mengubah gaya dari font seperti memiringkan nya
+
+6. line height : mengatur spasi antar baris
+
+TEXT STYLE
+
+1. Color : memberi warna pada tulisan
+
+2. text-align : format letak paragraf
+
+3. text-indent : indentasi pada teks / paragraf
+
+4. text-decoration : mengatur dekorasi pada teks
+
+5. text-transform : mengubah jenis huruf menjadi besar, kecil, ataupun kapital
+
+6. letter-spacing : mengatur spasi antar huruf
+
+7. word-spacing : mengatur spasi antar kata
+
+Selector : Digunakan pada CSS untuk mengenali sebuah elemen HTML yang akan diberi style
+
+PERBEDAAN ANTARA ID dan Class pada SELECTOR
+
+ID
+1. Sebuah elemen HTML hanya boleh memiliki 1 ID
+
+2. Setiap halaman hanya boleh memiliki 1 elemen dengan ID tersebut
+
+3. Dapat digunakan sebagai penanda halaman untuk link
+
+4. Digunakan juga untuk JavaScript
+
+5. Sebaiknya tidak digunakan untuk CSS (Lebih baik menggunakan Class)
+
+6. Beban yang di tanggung 100kali lebih berat daripada HTML 
+
+PSEUDOCLASS
+
+PseudoClass merupakan Kelas semu yang dimiliki oleh sebuah elemen HTML, yang membuat kita dapat mendefinisikan style pada "Keadaan Tertentu" dari elemen tersebut.
+
+PseudoClass yang berhubungan dengan Link
+
+1. :link = style default pada sebuah link (a yang memiliki href)
+
+2. :hover = style ketika kursor mouse berada diatas sebuah link / elemen
+
+3. :active = style ketika sebuah link di-klik (Keadaan Aktif)
+
+4. :visited = style ketika sebuah link sudah pernah dikunjungi sebelumnya (Menggunakan Browser yang sama)
+
+PseudoClass yang berhubungan dengan posisi elemen (1)
+1. :first-child = memilih elemen pertama dari sebuah parent (elemen pembungkusnya)
+
+2. last-child = memilih elemen terakhir dari sebuah parent (elemen pembungkusnya)
+
+3. :nth-child = memilih elemen ke-n dari sebuah parent (elemen pembungkusnya).
+
+n bisa berarti urutan (1), (2), . . . atau pola (2n), (3n+2), (4n-1) atau genap dan ganjil (even)&(odd)
+untuk penggunaan even dan odd itu apabila kita ingin menandai setiap 2 baris dari elemen tertentu
+
+ {:nth-child digunakan untuk menandai elemen yang lebih spesifik yg terletak diantara first child dan last child.
+
+Sedangkan PseudoClass yang berhubungan dengan elemen tertentu akan tetapi elemen itu bukan bagian dari sebuah child maka atribut yang di gunakan adalah
+
+1. :first-of-type
+	Memilih elemen pertama dari sebuah tag
+2. :last-of-type
+	Memilih elemen terakhir dari sebuah tag
+
+INHERITANCE
+
+Inheritance merupakan sebuah elemen yang mewarisi BEBERAPA nilai dari properti yang dimiliki oleh elemen parent nya
+
+sedangkan Elemen yang diwarisi oleh Inheritance ialah sebagai berikut :
+
+1. Color
+
+2. Font
+
+3. Letter-spacing
+
+4. Line-height
+
+5. List-style
+
+6. Text-align
+
+7. Text-indent
+
+8. Text-transform
+
+9. Visibility
+
+10. White-space
+
+Dan Atribut yang digunakan ialah { inherit;}
+
+SPECIFICITY
+
+Specificity : Setiap deklarasi CSS (Selector) memiliki BERAT yang berbeda. Berat tersebut menentukan seberapa spesifik sebuah elemen dapat dipilih oleh selector.
+
+Penggunaan properti Float
+1. Text Wrapping  : Membuat teks mengelilingi gambar / elemen lain.
+
+2. Image Gallery : Membuat serangkaian gambar menjadi galeri.
+
+3. Multi-Column Layout : Membuat halaman memiliki beberapa kolom.
+
+4. DLL
+
+Cara pembuatan div dgn class sama yang berurutan
+Contoh : .kotak{$}*10; ini di gunakan untuk membuat div dengan class kotak sebanyak 10 berturut2.
+
+
+	Margin
+Margin digunakan untuk membuat ruang di sekitar elemen, di luar batas yang ditentukan.
+	Padding
+Padding digunakan untuk membuat ruang di sekitar konten elemen, di dalam batas yang ditentukan.
+Padding tidak bisa di berikan nilai negatif, tidak seperti margin.
+Padding juga tidak memiliki nilai auto.
+Padding juga dapat menambah ukuran pada suatu elemen.
+	CSS reset 
+Dapat digunakan untuk mengatur ulang nilai-nilai default yang ada pada elemen yang ada di HTML
+kenapa reset digunakan? Yaitu supaya kita punya kendali penuh terhadap CSS yang akan kita buat.
+
+
+
+
+
+
+
+
